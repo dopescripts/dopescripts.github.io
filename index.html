@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>DopeScripts</title>
+  </head>
+  <body>
+    <!-- Navbar start here  -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #37517e">
+      <div class="container-fluid py-3 px-md-5">
+        <a class="navbar-brand fs-3" href="#">DOPESCRIPTS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item me-3">
+              <a class="nav-link" aria-current="page" href="#" :active>Home</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item dropdown me-3">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+              </ul>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <!-- Button  -->
+          <button class="btn btn-primary rounded-pill px-4" type="button">Get started</button>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar ends here  -->
+
+    <section id="main">
+      <div class="container h-100 py-5">
+        <div class="row w-100 h-100 justify-content-center mx-auto align-items-center py-md-4 gy-5">
+          <div class="col-md-6 px-md-2 pb-sm-4 pb-md-0 pe-md-4 pe-md-0" style="font-family: 'jost'">
+            <h1 class="display-4 text-white fw-bold w-90">
+              Better Solutions For <br />
+              Your Business
+            </h1>
+            <p class="text-white-50 fs-4 fw-semibold w-90" style="font-family: Open Sans">We are team of talented designers making websites with Bootstrap</p>
+            <button class="btn btn-lg btn-primary rounded-pill px-4 me-2 my-3 py-2 ms-1" type="button">Get started</button>
+            <a href="#" style="font-family: Open Sans"><i class="bi bi-play-circle fs-2 me-1" style="position: relative; top: 5px"></i> Watch Video</a>
+          </div>
+
+          <div class="col-md-6 px-md-2 justify-content-center">
+            <div class="animated">
+              <img src="images/hero-img.png" alt="" class="img-fluid ms-lg-5" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main section end here  -->
+
+    <section class="banner py-2 py-md-2 w-100 px-1" style="background-color: rgb(240, 240, 240)" id="clients">
+      <!-- Client logo imgs  -->
+      <div class="d-flex gap-5 gap-md-0 w-100" style="flex-wrap: nowrap; justify-content: center">
+        <img src="images/client-1.png" alt="" class="px-md-5 w-25" />
+        <img src="images/client-2.png" alt="" class="px-md-5 w-25" />
+        <img src="images/client-3.png" alt="" class="px-md-5 w-25" />
+        <img src="images/client-4.png" alt="" class="px-md-5 w-25" />
+        <img src="images/client-5.png" alt="" class="px-md-5 w-25" />
+      </div>
+    </section>
+
+    <!-- About Section start here  -->
+
+    <section class="Aboutus w-100" id="about">
+      <div class="container-fluid my-sm-3 my-lg-5 my-3">
+        <h1 class="text-center text-uppercase">ABOUT US</h1>
+        <hr />
+      </div>
+      <div class="container mb-5">
+        <div class="row mt-lg-5 pt-lg-4">
+          <div class="col-md-6 ps-3">
+            <p class="pb-0 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <ul>
+              <li class="pb-2"><i class="bi bi-check2-circle text-primary fs-5"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              <li class="pb-2"><i class="bi bi-check2-circle text-primary fs-5"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+              <li class="pb-2"><i class="bi bi-check2-circle text-primary fs-5"></i> Ullamco laboris nisi ut aliquip ex ea commodo</li>
+            </ul>
+          </div>
+
+          <div class="col-md-6 pe-3">
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+              laborum.
+            </p>
+            <button type="button" class="btn btn-outline-primary btn-large px-4 py-2 border-2 fw-bold">Read More --</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="whyus my-auto py-5" id="whyus">
+      <div class="row mx-2 mx-md-5 gy-5">
+        <div class="col-md-7 pe-lg-5">
+          <h2>Eum ipsam laborum deleniti <span>velit pariatur architecto aut nihil</span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+          <!-- Accordion  -->
+          <div class="me-lg-5">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item shadow mb-3 bg-body-tertiary rounded">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed fw-bold text-primary py-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    01 <span> Non consectetur a erat nam at lectus urna duis?</span>
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus non, officia nisi placeat beatae magni reprehenderit nemo. Nobis recusandae dolores corporis esse nulla inventore voluptatum aspernatur?</div>
+                </div>
+              </div>
+              <div class="accordion-item shadow mb-3 bg-body-tertiary rounded">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed fw-bold text-primary py-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    02 <span> Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</span>
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</div>
+                </div>
+              </div>
+              <div class="accordion-item shadow mb-3 bg-body-tertiary rounded">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed fw-bold text-primary py-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    03 <span> Dolor sit amet consectetur adipiscing elit pellentesque?</span>
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna
+                    molestie at elementum eu facilisis sed odio morbi quis
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Accordion  -->
+        </div>
+        <div class="col-md-5 mx-auto my-auto">
+          <img src="images/why-us.png" alt="whyus" class="img-fluid" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills section start here  -->
+    <section class="skills section py-5" id="skills">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 d-flex align-items-center">
+            <img src="images/skills.png" alt="" class="img-fluid p-4" />
+          </div>
+          <div class="col-lg-6 my-auto">
+            <h2 class="fw-bold">Voluptatem dignissimos provident quasi corporis voluptas</h2>
+            <p class="text-muted fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <!-- progress bars  -->
+
+            <p class="p-0 m-0 pb-1 fw-bold text-secondary ptext">HTML <span>98%</span></p>
+
+            <div class="progress mb-2" role="progressbar" aria-label="Basic example" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+              <div class="progress-bar" style="width: 98%"></div>
+            </div>
+
+            <p class="p-0 m-0 pb-1 fw-bold text-secondary ptext">CSS <span>93%</span></p>
+
+            <div class="progress mb-2" role="progressbar" aria-label="Basic example" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+              <div class="progress-bar" style="width: 93%"></div>
+            </div>
+
+            <p class="p-0 m-0 pb-1 fw-bold text-secondary ptext">JAVASCRIPT <span>76%</span></p>
+
+            <div class="progress mb-2" role="progressbar" aria-label="Basic example" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+              <div class="progress-bar" style="width: 76%"></div>
+            </div>
+
+            <p class="p-0 m-0 pb-1 fw-bold text-secondary ptext">GRAPHIC DESIGN <span>75%</span></p>
+
+            <div class="progress mb-2" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+              <div class="progress-bar" style="width: 75%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills section start here  -->
+
+    <section id="services" class="services section bg-secondary-subtle py-5 w-100">
+      <div class="container">
+        <h2 class="text-center">SERVICES</h2>
+        <hr />
+        <p class="text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+      <div class="container w-100 mt-2">
+        <!-- Card Servies Items  -->
+        <div class="row d-flex align-items-center justify-content-center mx-auto w-100">
+          <!-- card item start  -->
+          <div class="col-lg-3 col-md-3 col-sm-12 col-12 my-4">
+            <div class="card border-0 shadow mb-3 bg-body-tertiary rounded">
+              <div class="card-body py-lg-5 px-4 py-sm-3">
+                <h1 class="card-title"><i class="bi bi-activity text-primary icon"></i></h1>
+                <h2 class="fs-5">Lorem Ipsum</h2>
+                <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              </div>
+            </div>
+          </div>
+          <!-- card item end  -->
+          <div class="col-lg-3 col-md-3 col-sm-12 col-12 my-2">
+            <div class="card border-0 shadow mb-3 bg-body-tertiary rounded">
+              <div class="card-body py-lg-5 px-4 py-sm-3">
+                <h1 class="card-title"><i class="bi bi-calendar4-week text-primary icon"></i></h1>
+                <h2 class="fs-5">Sed ut perspici</h2>
+                <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              </div>
+            </div>
+          </div>
+          <!-- card item end  -->
+          <div class="col-lg-3 col-md-3 col-sm-12 col-12 my-2">
+            <div class="card border-0 shadow mb-3 bg-body-tertiary rounded">
+              <div class="card-body py-lg-5 px-4 py-sm-3">
+                <h1 class="card-title"><i class="bi bi-bounding-box-circles text-primary"></i></h1>
+                <h2 class="fs-5">Magni Dolores</h2>
+                <p class="card-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              </div>
+            </div>
+          </div>
+          <!-- card item end  -->
+          <div class="col-lg-3 col-md-3 col-sm-12 col-12 my-2">
+            <div class="card border-0 shadow mb-3 bg-body-tertiary rounded">
+              <div class="card-body py-lg-5 px-4 py-sm-3">
+                <h1 class="card-title"><i class="bi bi-broadcast icon text-primary"></i></h1>
+                <h2 class="fs-5">Nemo Enim</h2>
+                <p class="card-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              </div>
+            </div>
+          </div>
+          <!-- card item end  -->
+
+          <!-- Card services end  -->
+        </div>
+      </div>
+    </section>
+    <!-- Services section end here  -->
+
+    <section class="cta py-sm-3 py-md-0" style="height: 20rem">
+      <div class="container">
+        <div class="container d-lg-flex align-items-center h-100 text-white pt-5">
+          <div>
+            <h1>Call To Action</h1>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboris</p>
+          </div>
+          <div class="ps-lg-5">
+            <button type="button" class="btn btn-outline-light rounded-pill px-4 py-2 border-2 fw-bold" style="width: 12rem">Call to action</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ourteam section py-5" id="team">
+      <div class="container">
+        <h2 class="text-center">TEAM</h2>
+        <hr />
+        <p class="text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+      <!-- Team cards  -->
+      <div class="container d-md-flex justify-content-center align-items-center my-5">
+        <!-- Card 1  -->
+        <div class="card mb-3 border-0 shadow mb-3 rounded mx-auto p-2" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/team-3.jpg" class="img-fluid rounded-circle" alt="Card title" />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body ps-4">
+                <h2 class="card-title fs-4">Walter White</h2>
+                <p class="card-text fs-6">Chief Executive Officer</p>
+                <p class="card-text">
+                  <small class="text-muted">Explicabo voluptatem mollitia et repellat qui dolorum quasi</small>
+                </p>
+                <div class="card-text">
+                  <i class="bi bi-facebook pe-1"></i>
+                  <i class="bi bi-twitter-x pe-1"></i>
+                  <i class="bi bi-instagram pe-1"></i>
+                  <i class="bi bi-linkedin pe-1"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 1  end -->
+        <!-- Card 2  -->
+        <div class="card mb-3 border-0 shadow mb-3 rounded mx-auto p-2" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/team-4.jpg" class="img-fluid rounded-circle" alt="Card title" />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body ps-4">
+                <h2 class="card-title fs-4">Sarah Jhonson</h2>
+                <p class="card-text fs-6">Product Manager</p>
+                <p class="card-text">
+                  <small class="text-muted">Explicabo voluptatem mollitia et repellat qui dolorum quasi</small>
+                </p>
+                <div class="card-text">
+                  <i class="bi bi-facebook pe-1"></i>
+                  <i class="bi bi-twitter-x pe-1"></i>
+                  <i class="bi bi-instagram pe-1"></i>
+                  <i class="bi bi-linkedin pe-1"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2  end-->
+      </div>
+      <div class="container d-md-flex justify-content-center align-items-center my-5">
+        <!-- Card 3  -->
+        <div class="card mb-3 border-0 shadow mb-3 rounded me-4 p-2" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/team-1.jpg" class="img-fluid rounded-circle" alt="Card title" />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body ps-4">
+                <h2 class="card-title fs-4">William Anderson</h2>
+                <p class="card-text fs-6">CTO</p>
+                <p class="card-text">
+                  <small class="text-muted">Explicabo voluptatem mollitia et repellat qui dolorum quasi</small>
+                </p>
+                <div class="card-text">
+                  <i class="bi bi-facebook pe-1"></i>
+                  <i class="bi bi-twitter-x pe-1"></i>
+                  <i class="bi bi-instagram pe-1"></i>
+                  <i class="bi bi-linkedin pe-1"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 end  -->
+        <!-- Card 4  -->
+        <div class="card mb-3 border-0 shadow mb-3 rounded me-4 p-2" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/team-2.jpg" class="img-fluid rounded-circle" alt="Card title" />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body ps-4">
+                <h2 class="card-title fs-4">Amanda Jepson</h2>
+                <p class="card-text fs-6">Accountant</p>
+                <p class="card-text">
+                  <small class="text-muted">Explicabo voluptatem mollitia et repellat qui dolorum quasi</small>
+                </p>
+                <div class="card-text">
+                  <i class="bi bi-facebook pe-1"></i>
+                  <i class="bi bi-twitter-x pe-1"></i>
+                  <i class="bi bi-instagram pe-1"></i>
+                  <i class="bi bi-linkedin pe-1"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 4 end  -->
+      </div>
+      <!-- Team cards end -->
+    </section>
+
+    <!-- pricing section start  -->
+    <section class="pricing section py-5 bg-secondary-subtle" id="pricing">
+      <div class="container w-100">
+        <h2 class="text-center">PRICING</h2>
+        <hr />
+        <p class="text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+      <div class="container">
+        <div class="row my-sm-5 my-md-0">
+          <!-- Free plan  -->
+          <div class="col-md-4 mt-5">
+            <div class="card border-bottom-0 border-start-0 border-end-0 p-3 pt-5 border-top-0 shadow mb-md-4">
+              <div class="card-body">
+                <h3 class="pb-3 fs-4">Free plan</h3>
+                <h4 class="pb-3">$0<span>/ month</span></h4>
+                <div class="card-items">
+                  <span><i class="bi bi-check"></i> Quam adipiscing vitae proin</span>
+                </div>
+                <div class="card-items">
+                  <span><i class="bi bi-check"></i> Nec feugiat nisl pretium</span>
+                </div>
+                <div class="card-items">
+                  <span><i class="bi bi-check"></i> Nulla at volutpat diam uteera</span>
+                </div>
+                <div class="card-items">
+                  <span
+                    ><del><i class="bi bi-x"></i> Pharetra massa massa ultricies</del></span
+                  >
+                </div>
+                <div class="card-items">
+                  <span
+                    ><del><i class="bi bi-x"></i> Massa ultricies mi quis hendrerit</del></span
+                  ><br />
+                  <button class="btn btn-lg btn-outline-info rounded-pill mt-5 ms-2 px-5 py-2 fs-6 fw-semibold">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Business Plan  -->
+          <div class="col-md-4 mt-5">
+            <div class="card border-bottom-0 border-start-0 border-end-0 p-3 pt-5 border-top-1 border-info shadow mb-md-4">
+              <div class="card-body">
+                <h3 class="pb-3 fs-4">Business Plan</h3>
+                <h4 class="pb-3">$29<span>/ month</span></h4>
+                <div class="card-items">
+                  <span><i class="bi bi-check"></i> Quam adipiscing vitae proin</span>
+                </div>
+                <div class="card-items">
+                  <span><i class="bi bi-check"></i> Nec feugiat nisl pretium</span>
+                </div>
+                <div class="card-items">
+                  <span><i class="bi bi-check"></i> Nulla at volutpat diam uteera</span>
+                </div>
+                <div class="card-items">
+                  <span><i class="bi bi-check"></i> Pharetra massa massa ultricies</span>
+                </div>
+                <div class="card-items">
+                  <span><i class="bi bi-check"></i> Massa ultricies mi quis hendrerit</span><br />
+                  <button class="btn btn-lg btn-outline-info rounded-pill mt-5 ms-2 px-5 py-2 fs-6 fw-semibold">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Developer Plan  -->
+          <div class="col-md-4 mt-5">
+            <div class="card border-bottom-0 border-start-0 border-end-0 p-3 pt-5 border-top-0 shadow mb-md-4">
+              <div class="card-body">
+                <h3 class="pb-3 fs-4">Developer Plan</h3>
+                <h4 class="pb-3">$49<span>/ month</span></h4>
+                <div class="card-items">
+                  <span><i class="bi bi-check"></i> Quam adipiscing vitae proin</span>
+                </div>
+                <div class="card-items">
+                  <span><i class="bi bi-check"></i> Nec feugiat nisl pretium</span>
+                </div>
+                <div class="card-items">
+                  <span><i class="bi bi-check"></i> Nulla at volutpat diam uteera</span>
+                </div>
+                <div class="card-items">
+                  <span><i class="bi bi-check"></i> Pharetra massa massa ultricies</span>
+                </div>
+                <div class="card-items">
+                  <span><i class="bi bi-check"></i> Massa ultricies mi quis hendrerit</span><br />
+                  <button class="btn btn-lg btn-outline-info rounded-pill mt-5 ms-2 px-5 py-2 fs-6 fw-semibold">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- pricing section end  -->
+
+    <!-- faq section start  -->
+    <section class="faq section py-5">
+      <div class="container w-100">
+        <h2 class="text-center">FREQUENTLY ASKED QUESTIONS</h2>
+        <hr />
+        <p class="text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+      <div class="container px-5">
+        <!-- Accordion  -->
+        <div class="accordion accordion-flush my-4" id="accordionFlushExample">
+          <div class="accordion-item mb-3 bg-secondary-subtle">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-semibold text-primary py-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <p class="pb-0 mb-0"><i class="bi bi-question-circle"></i> Non consectetur a erat nam at lectus urna duis?</p>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body bg-secondary-subtle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus non, officia nisi placeat beatae magni reprehenderit nemo. Nobis recusandae dolores corporis esse nulla inventore voluptatum aspernatur?</div>
+            </div>
+          </div>
+          <div class="accordion-item mb-3 bg-body-tertiary rounded">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-semibold text-primary py-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <p class="pb-0 mb-0"><i class="bi bi-question-circle"></i> Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</p>
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</div>
+            </div>
+          </div>
+          <div class="accordion-item mb-3 bg-body-tertiary rounded">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-semibold text-primary py-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <p class="pb-0 mb-0"><i class="bi bi-question-circle"></i> Dolor sit amet consectetur adipiscing elit pellentesque?</p>
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie
+                at elementum eu facilisis sed odio morbi quis
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mb-3 bg-body-tertiary rounded">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-semibold text-primary py-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <p class="pb-0 mb-0"><i class="bi bi-question-circle"></i> Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</p>
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis
+                massa tincidunt dui.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mb-3 bg-body-tertiary rounded">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-semibold text-primary py-4" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <p class="pb-0 mb-0"><i class="bi bi-question-circle"></i> Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</p>
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus i
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- accordion end  -->
+      </div>
+    </section>
+    <!-- faq section start  -->
+
+    <section class="contact section py-5 bg-secondary-subtle w-100" id="contact">
+      <div class="container w-100">
+        <h2 class="text-center">CONTACT</h2>
+        <p class="text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+      <div class="container w-100">
+        <div class="row w-100 gx-5 my-5 mx-auto">
+          <div class="col-md-5">
+            <div class="shadow my-4 bg-light pt-5 px-5" style="height: max-content">
+              <!-- Address  -->
+              <div class="d-flex align-items-center pb-4 mb-3">
+                <div class="pe-4">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div>
+                  <h5>Address</h5>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div>
+              <!-- Contact  -->
+              <div class="d-flex align-items-center pb-4 mb-3">
+                <div class="pe-4">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div>
+                  <h5>Contact</h5>
+                  <p>+1 5589 55488 55</p>
+                </div>
+              </div>
+              <!-- Email  -->
+              <div class="d-flex align-items-center pb-4 mb-3">
+                <div class="pe-4">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div>
+                  <h5>Email Us</h5>
+                  <p>info@example.com</p>
+                </div>
+              </div>
+              <div class="ratio ratio-4x3 my-5">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101408.04337159806!2d-122.16366892383229!3d37.413442858779256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb7495bec0189%3A0x7c17d44a466baf9b!2sMountain%20View%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1720160649606!5m2!1sen!2s"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-7">
+            <div class="shadow bg-light px-5 py-5 my-4" style="height: max-content">
+              <form action="#">
+                <!-- first row of form  -->
+                <div class="row g-3">
+                  <!-- name form  -->
+                  <div class="col-sm-6">
+                    <div class="mb-3">
+                      <label for="name" class="form-label">Your Name</label>
+                      <input type="text" id="name" class="form-control" />
+                    </div>
+                  </div>
+                  <!-- email form  -->
+                  <div class="col-sm-6">
+                    <div class="mb-3">
+                      <label for="email1" class="form-label">Your Email</label>
+                      <input type="email" id="email1" class="form-control" />
+                    </div>
+                  </div>
+                  <!-- subject form  -->
+                  <div class="mb-3">
+                    <div class="form">
+                      <label for="subject" class="form-label">Subject</label>
+                      <input type="text" class="form-control" id="subject" />
+                    </div>
+                  </div>
+                  <!-- Message area  -->
+                  <div class="mb-3">
+                    <label for="Textarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="Textarea1" rows="10"></textarea>
+                  </div>
+                  <!-- button submit  -->
+                  <div class="col-12 d-flex justify-content-center align-items-center">
+                    <button type="submit" class="btn btn-primary rounded-pill px-5 py-2">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="joinus section py-5" id="joinus">
+      <div class="container mb-3">
+        <h2 class="text-center pb-3">Join Our Newsletter</h2>
+        <p class="text-center pb-4">Subscribe to our newsletter and receive the latest news about our products and services!</p>
+
+        <div class="row">
+          <div class="col-sm-6 mx-auto">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control rounded-pill shadow bg-body-tertiary" aria-label="Recipient's username" aria-describedby="button-addon2" />
+              <button class="btn btn-primary rounded-pill ms-2 shadow px-4" type="button" id="button-addon2">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="w-100 bg-body-tertiary text-muted">
+      <!-- Section: Links  -->
+      <section class>
+        <div class="container mx-auto mt-5 pt-4">
+          <!-- Grid row -->
+          <div class="row mt-3 gy-5 mx-auto w-100">
+            <!-- Grid column -->
+            <div class="col-sm-6 col-md-3 col-lg-4 col-xl-3 mb-4">
+              <!-- Content -->
+              <h2 class="text-uppercase fw-semibold pb-4">Arsha</h2>
+              <p class="lh-5 fs-6 mb-3">
+                A108 Adam Street <br />
+                New York, NY 535022
+              </p>
+              <p class="mb-1">
+                <small><b>Phone:</b> +1 5589 55488 55</small>
+              </p>
+              <p>
+                <small><b>Email:</b> info@example.com</small>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-sm-6 col-md-2 col-lg-2 col-xl-2 mb-4">
+              <!-- Links -->
+              <h2 class="fw-bold mb-4 fs-6">Useful Links</h2>
+              <p>
+                <a href="#!" class="text-reset">Home</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">About us</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Services</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Terms of Services</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-sm-6 col-md-3 col-lg-2 col-xl-2 mb-4">
+              <!-- Links -->
+              <h2 class="fs-6 fw-bold mb-4">Our Services</h2>
+              <p>
+                <a href="#!" class="text-reset">Pricing</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Settings</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Orders</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-md-0 mb-4">
+              <!-- Links -->
+              <h2 class="fs-6 fw-bold mb-2">Contact</h2>
+              <p class="mt-0 pt-0 mb-5">Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+              <div class="sicons">
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-linkedin"></i>
+              </div>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="#">ARSHA.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </body>
+</html>

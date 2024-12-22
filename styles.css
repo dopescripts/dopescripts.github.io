@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+nav button.btn {
+  background-color: #47b2e4;
+  border-style: none;
+}
+.navbar-brand {
+  font-family: "jost";
+  font-weight: 500;
+}
+.nav-item {
+  font-family: "Poppins";
+  font-size: 1rem;
+}
+.nav-item a.nav-link {
+  color: white;
+  transition: 0.3s;
+}
+.nav-item a.nav-link:active {
+  color: #439bcc;
+}
+.nav-item a:hover {
+  color: #439bcc;
+}
+#main {
+  background-color: #37517e;
+}
+#main button {
+  background-color: #47b2e4;
+  border-style: none;
+  font-size: 1.2rem;
+  font-family: "jost";
+  font-weight: 600;
+  transition: 0.3s;
+}
+#main button:hover {
+  background-color: #4085a5;
+}
+#main a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+#main a:hover {
+  color: #47b2e4;
+}
+#main .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+.banner img {
+  width: 220px;
+}
+.Aboutus h1 {
+  font-family: Jost;
+  font-weight: 700;
+  color: rgb(55, 81, 126);
+}
+hr {
+  width: 12rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2 {
+  font-family: "Jost";
+  font-weight: 700;
+  color: rgb(55, 81, 126);
+}
+p {
+  font-family: "Open Sans";
+}
+.Aboutus p {
+  font-family: "Open Sans";
+  color: rgb(68, 68, 68);
+}
+.Aboutus li {
+  list-style: none;
+  font-family: "Open Sans";
+  color: rgb(68, 68, 68);
+}
+.Aboutus button {
+  border-color: #47b2e4;
+  color: #47b2e4;
+}
+.Aboutus button:hover {
+  background-color: #47b2e4;
+  border-color: #47b2e4;
+}
+.whyus {
+  background-color: rgb(241, 241, 241);
+}
+.whyus h2 {
+  font-family: jost;
+  color: #37517e;
+  font-weight: 400;
+}
+.whyus h2 span {
+  font-weight: bold;
+}
+.whyus p {
+  font-family: "Open sans";
+  color: rgb(126, 126, 126);
+}
+.whyus .accordion-item button {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.whyus .accordion-item button span {
+  font-weight: 500;
+  color: #37517e;
+  padding-left: 0.5rem;
+}
+.whyus .accordion-item .accordion-body {
+  font-family: "Open sans";
+  color: rgb(88, 88, 88);
+}
+.skills h2 {
+  font-family: "Jost";
+  color: #37517e;
+}
+.skills p {
+  font-family: "Open sans";
+}
+.skills p.ptext {
+  font-size: 0.8rem;
+}
+.skills p.ptext span {
+  float: right;
+}
+.skills .progress {
+  border-radius: 0px;
+}
+.skills .progress-bar {
+  background-color: #37517e;
+}
+.card {
+  transition: 0.5s;
+  transform: translateY(1);
+}
+.card:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+.card:hover h2 {
+  color: #3680a1;
+}
+.card:hover p {
+  color: rgb(83, 83, 83);
+}
+.cta {
+  background-color: rgba(0, 25, 39, 0.699);
+  background-image: url(images/cta-bg.jpg);
+  background-blend-mode: darken;
+  background-attachment: fixed;
+  object-fit: cover;
+  object-position: center;
+  background-size: cover;
+}
+.cta h1 {
+  font-family: "Jost";
+  font-size: 2rem;
+  font-weight: 700;
+}
+.cta p {
+  font-family: "Open sans";
+}
+.cta button {
+  font-family: "Open sans";
+  transition: 0.5s;
+}
+.cta button:hover {
+  background-color: #439bcc;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+.ourteam .card:hover {
+  cursor: default;
+}
+.ourteam .card .card-text i {
+  font-size: 1.2rem;
+  color: rgb(117, 117, 117);
+}
+.ourteam .card .card-text i:hover {
+  cursor: pointer;
+  color: #47b2e4;
+}
+.pricing .card h3 {
+  color: #37517e;
+  font-family: "Jost";
+  font-weight: 600;
+}
+.pricing .card h4 {
+  color: #47b2e4;
+  font-family: "jost";
+  font-weight: normal;
+  font-size: 3rem;
+}
+.pricing .card h4 span {
+  color: darkgray;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.pricing .card .card-items {
+  padding-bottom: 12px;
+  color: rgb(114, 114, 114);
+  font-size: 1rem;
+}
+.pricing .card .card-items i {
+  font-size: 1.4rem;
+  color: green;
+  position: relative;
+  top: 3px;
+}
+.pricing .card .card-items i.bi-x {
+  color: rgb(114, 114, 114);
+}
+.faq .accordion p {
+  color: #37517e;
+  font-size: 1.2rem;
+  font-family: jost;
+}
+.faq .accordion i {
+  color: #47b2e4;
+  font-size: 1.2rem;
+  padding-right: 0.5rem;
+}
+.faq .accordion button {
+  background-color: rgb(238, 238, 238);
+}
+/* contact styles  */
+.contact .row .col-md-5 div.shadow {
+  border-top: 4px #47b2e4 solid;
+  border-bottom: 4px #47b2e4 solid;
+}
+.contact i {
+  font-size: 1.3rem;
+  color: #47b2e4;
+  background-color: rgb(230, 252, 255);
+  border-radius: 50%;
+  padding: 8px 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.contact h5 {
+  color: #37517e;
+  font-family: "jost";
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.contact p {
+  font-family: "open sans";
+  font-size: 0.9rem;
+  color: rgb(34, 34, 34);
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.contact .row .col-md-7 div.shadow {
+  border-top: 4px #47b2e4 solid;
+  border-bottom: 4px #47b2e4 solid;
+}
+.contact .row form .form-control {
+  border-radius: 0;
+}
+footer p {
+  font-family: "Open sans";
+}
+footer p a {
+  text-decoration: none;
+  color: rgb(219, 219, 219);
+  font-size: 0.9rem;
+}
+footer .sicons i {
+  margin-top: 1rem;
+  margin-right: 0.8rem;
+  font-size: 1.1rem;
+  color: grey;
+  border: 1px grey solid;
+  border-radius: 50%;
+  padding: 0.5rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+}
+footer .sicons i:hover {
+  color: #47b2e4;
+  border-color: #47b2e4;
+  cursor: pointer;
+}
